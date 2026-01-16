@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact Us | AquaPure Solutions</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Poppins:wght@300;400;500;600;700&family=Dancing+Script:wght@600;700&display=swap" rel="stylesheet">
+
+    <!-- Phosphor Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<!-- Navbar -->
+<div id="navbar-placeholder"></div>
+<!-- PAGE HEADER BANNER -->
+    <header class="page-header">
+        
+        <!-- Bubbles Container (Carbonated Effect) -->
+        <div class="bubbles-container">
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            
+        </div>
+
+        <div class="container relative z-10">
+            <!-- Zoom In Title -->
+            <h1 class="header-title reveal reveal-zoom">Contact Us</h1>
+            <p class="header-desc reveal reveal-zoom delay-200">Get in Touch</p>
+        </div>
+    </header>
+<!-- Booking / Contact Section -->
+        <section id="contact" class="booking-section">
+            <div class="container">
+                <div style="text-align: center; margin-bottom: 4rem;">
+                    
+                    <h2 style="font-family: 'Playfair Display', serif; font-size: 3rem; color: var(--dark); margin-top: 0.5rem;">Book a Service</h2>
+                </div>
+
+                <div class="booking-container">
+                    <!-- Contact Info (Left) -->
+                    <div class="contact-info-card reveal">
+                        <h3 style="font-family: 'Playfair Display', serif; font-size: 1.8rem; margin-bottom: 2rem; color: var(--dark-blue);">Contact Information</h3>
+                        
+                        <div class="info-item">
+                            <div class="info-icon-box"><i class="ph-fill ph-phone-call"></i></div>
+                            <div>
+                                <p style="font-size: 0.9rem; color: #64748b; margin-bottom: 0;">Call Us 24/7</p>
+                                <p style="font-size: 1.1rem; font-weight: 600; color: var(--dark);">+91 000-000-0000</p>
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <div class="info-icon-box"><i class="ph-fill ph-envelope-simple"></i></div>
+                            <div>
+                                <p style="font-size: 0.9rem; color: #64748b; margin-bottom: 0;">Email Us</p>
+                                <p style="font-size: 1.1rem; font-weight: 600; color: var(--dark);">service@aquapure.com</p>
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <div class="info-icon-box"><i class="ph-fill ph-map-pin"></i></div>
+                            <div>
+                                <p style="font-size: 0.9rem; color: #64748b; margin-bottom: 0;">Service Area</p>
+                                <p style="font-size: 1.1rem; font-weight: 600; color: var(--dark);">Blue City & Metro Region</p>
+                            </div>
+                        </div>
+
+                        <div style="margin-top: 3rem; padding-top: 2rem; border-top: 1px solid rgba(0,0,0,0.05);">
+                            <p style="font-size: 0.95rem; color: #64748b; line-height: 1.6;">
+                                "Our technician arrived on time and fixed the issue in 30 minutes. Highly recommended!"
+                            </p>
+                            <div style="margin-top: 1rem; display: flex; gap: 0.5rem; color: var(--accent);">
+                                <i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Booking Form (Right) -->
+                    <div class="booking-form-card reveal delay-100">
+                        <form onsubmit="event.preventDefault(); alert('Thank you! We have received your booking request.');">
+                            <div class="form-grid">
+                                <div class="form-group">
+                                    <label class="form-label">Full Name</label>
+                                    <input type="text" class="form-control" placeholder="Name" required>
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label">Phone Number</label>
+                                    <input type="tel" class="form-control" placeholder="+91 000-000-0000" required>
+                                </div>
+                                <div class="form-group full-width">
+                                    <label class="form-label">Email Address</label>
+                                    <input type="email" class="form-control" placeholder="123@example.com" required>
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label">Service Type</label>
+                                    <select class="form-control" required>
+                                        <option value="">Select Service...</option>
+                                        <option value="installation">New Installation</option>
+                                        <option value="repair">Repair / Breakdown</option>
+                                        <option value="maintenance">Annual Maintenance (AMC)</option>
+                                        <option value="filter-change">Filter Change</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label">Preferred Date</label>
+                                    <input type="date" class="form-control" required>
+                                </div>
+                                <div class="form-group full-width">
+                                    <label class="form-label">Address</label>
+                                    <textarea class="form-control" rows="3" placeholder="Enter your full address..." required></textarea>
+                                </div>
+                            </div>
+                            <button type="submit" class="submit-btn">Book Appointment</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- NEW FAQ SECTION -->
+    <section class="faq-section">
+        <div class="container faq-container">
+            <div style="text-align: center; margin-bottom: 3rem;">
+                <span style="color: var(--primary); font-weight: 600; text-transform: uppercase; letter-spacing: 2px; font-size: 0.85rem;">Common Queries</span>
+                <h2 style="font-family: 'Playfair Display', serif; font-size: 2.5rem; color: var(--dark); margin-top: 0.5rem;">Frequently Asked Questions</h2>
+            </div>
+
+            <!-- FAQ Item 1 -->
+            <div class="faq-item reveal">
+                <details>
+                    <summary>How do I schedule a service visit?</summary>
+                    <div class="faq-answer">
+                        <p>You can schedule a visit by filling out the form above, calling our 24/7 hotline, or sending us a quick message on WhatsApp. We typically confirm appointments within 1 hour.</p>
+                    </div>
+                </details>
+            </div>
+
+            <!-- FAQ Item 2 -->
+            <div class="faq-item reveal delay-100">
+                <details>
+                    <summary>What areas do you currently serve?</summary>
+                    <div class="faq-answer">
+                        <p>We provide water purifier installation, repair, and maintenance services across the entire Blue City Metro region and suburbs within a 20km radius.</p>
+                    </div>
+                </details>
+            </div>
+
+            <!-- FAQ Item 3 -->
+            <div class="faq-item reveal delay-200">
+                <details>
+                    <summary>Do you offer a warranty on repairs?</summary>
+                    <div class="faq-answer">
+                        <p>Yes! We offer a <strong>30-day service warranty</strong> on all repair jobs. Additionally, any spare parts replaced come with their respective manufacturer's warranty.</p>
+                    </div>
+                </details>
+            </div>
+
+            <!-- FAQ Item 4 -->
+            <div class="faq-item reveal delay-300">
+                <details>
+                    <summary>How often should I service my water purifier?</summary>
+                    <div class="faq-answer">
+                        <p>For optimal water quality and machine longevity, we recommend a general service every 3-4 months and a complete filter change once a year, depending on your water usage.</p>
+                    </div>
+                </details>
+            </div>
+             <!-- FAQ Item 5 -->
+             <div class="faq-item reveal delay-300">
+                <details>
+                    <summary>Are your technicians certified?</summary>
+                    <div class="faq-answer">
+                        <p>Absolutely. All our technicians undergo rigorous training and background checks to ensure they provide safe, professional, and expert service in your home.</p>
+                    </div>
+                </details>
+            </div>
+
+        </div>
+    </section>
+
+    <div class="floating-contact-wrapper" id="contactWidget">
+    
+    <a href="https://wa.me/918788883017" target="_blank" class="contact-btn whatsapp-btn sub-btn">
+        <i class="ph-fill ph-whatsapp-logo"></i>
+        <span>WhatsApp</span>
+    </a>
+
+    <a href="tel:+918788883017" class="contact-btn call-btn sub-btn">
+        <i class="ph-fill ph-phone-call"></i>
+        <span>Call</span>
+    </a>
+
+    <div class="contact-btn chat-toggle-btn" onclick="toggleContactMenu()">
+        <i class="ph-fill ph-chats icon-open"></i>
+        <i class="ph-bold ph-x icon-close"></i>
+    </div>
+
+</div>
+
+<!-- Footer -->
+<div id="footer-placeholder"></div>
+
+<!-- Main JS -->
+<script src="js/main.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,75 @@
+   <!-- 
+       ========================================
+       WAVE HTML STRUCTURE 
+       (Place this directly ABOVE your footer)
+       ========================================
+    -->
+    <div class="wave-container-box">
+        <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+            <defs>
+                <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+            </defs>
+            <g class="parallax">
+                <!-- Layers of the wave with opacity -->
+                <!-- Color: #1e293b (Matches your footer background start) -->
+                <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(30, 41, 59, 0.7)" />
+                <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(30, 41, 59, 0.5)" />
+                <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(30, 41, 59, 0.3)" />
+                <!-- The bottom layer is solid and matches the footer background -->
+                <use xlink:href="#gentle-wave" x="48" y="7" fill="#1e293b" /> 
+            </g>
+        </svg>
+    </div>
+<footer>
+
+    
+        <div class="footer-content">
+            <div class="footer-section">
+                <div class="logo">AquaPure</div>
+                <p style="margin-top: 1.5rem;">Providing premium water purification services since 2015. Your health is our priority.</p>
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+                        <div class="social-links">
+                <a href="#" class="social-link" aria-label="Facebook">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#" class="social-link" aria-label="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#" class="social-link" aria-label="Twitter">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#" class="social-link" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+            </div>
+
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="index.html" onclick="showPage('home')">Home</a></li>
+                    <li><a href="about.html" onclick="showPage('about')">About Us</a></li>
+                    <li><a href="services.html" onclick="showPage('services')">Services</a></li>
+                    <li><a href="reviews.html">Reviews</a></li>
+                    <li><a href="contact.html" onclick="showPage('contact')">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Our Services</h3>
+                <ul class="footer-links">
+                    <li><a href="services.html" onclick="showPage('services')">RO Installation</a></li>
+                    <li><a href="services.html" onclick="showPage('services')">Repair Services</a></li>
+                    <li><a href="amc.html" onclick="showPage('services')">AMC Plans</a></li>
+                    <li><a href="services.html" onclick="showPage('services')">Filter Change</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+               <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d28755.3252119496!2d73.7603089!3d18.5955668!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0xa570280b6ee4d5b9%3A0xc6b71e8e70ff359b!2sOffice%20No.%20%3A%20201%2C%202nd%20Floor%2C%20Pristine%20Square%2C%20behind%20phoenix%20mall%2C%20Shankar%20Kalat%20Nagar%2C%20Wakad%2C%20Pune%2C%20Pimpri-Chinchwad%2C%20Maharashtra%20411057!3m2!1d18.5978282!2d73.75794789999999!5e1!3m2!1sen!2sin!4v1768296026014!5m2!1sen!2sin" width="400" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 AquaPure Solutions. All rights reserved.</p>
+        </div>
+    </footer>
